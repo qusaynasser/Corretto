@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+</head>
+<body>
+
+
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo-light.png" alt="logo" class="ps-4 logo1"></a>
+      <a class="navbar-brand" href="#"><img src="assets/img/logo-mobile.png" alt="logo" class="ps-4 logo2"></a>
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse me-5" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  gap-5">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="about-me.html">PAGES</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="#">PORTFOLIO</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">SHOP</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">ELEMENTS</a>
+          </li>
+      </div>
+      <div class="main-req d-flex gap-4 pe-4 text-white">
+        <div class="shop">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- start header -->
+    <section class="header">
+        <div class="custom-txt position-relative">
+            <h1 class="text-white">PORTFOLIO STANDARD</h1>
+        </div>
+    </section>
+    <!-- end header -->
+
+    <!-- nav&tabs -->
+    <section class="navs-tab py-5 ">
+        <div class="container pt-5  ">
+            <ul class="custom-ul nav nav-tabs d-flex justify-content-center gap-4" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="showall-tab" data-bs-toggle="tab" data-bs-target="#showall-tab-pane" type="button" role="tab" aria-controls="showall-tab-pane" aria-selected="true">Show all</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="aroma-tab" data-bs-toggle="tab" data-bs-target="#aroma-tab-pane" type="button" role="tab" aria-controls="aroma-tab-pane" aria-selected="false">Aroma</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="break-tab" data-bs-toggle="tab" data-bs-target="#break-tab-pane" type="button" role="tab" aria-controls="break-tab-pane" aria-selected="false">Break</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="cupofcoffee-tab" data-bs-toggle="tab" data-bs-target="#cupofcoffee-tab-pane" type="button" role="tab" aria-controls="cupofcoffee-tab-pane" aria-selected="false">Cup of Coffee</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="filtered-tab" data-bs-toggle="tab" data-bs-target="#filtered-tab-pane" type="button" role="tab" aria-controls="filtered-tab-pane" aria-selected="false">Filtered</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="mornings-tab" data-bs-toggle="tab" data-bs-target="#mornings-tab-pane" type="button" role="tab" aria-controls="mornings-tab-pane" aria-selected="false">Mornings</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="showall-tab-pane" role="tabpanel" aria-labelledby="showall-tab" tabindex="0">
+                    <div class="container mt-5 ">
+                        <div class="row row-gap-5">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-1.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>PERFECT CUP</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-2.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BREWED</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-3.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>COFFEE DRIPS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-7.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BAKED BEANS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-5.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BEST AROMAS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-6.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>CREAMS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-4.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>ENJOYMENT</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-8.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BIG MUGS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-9.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>ESSPRESSO</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buton12  text-center mt-5">
+                            <button class="mt-5 me-5 px-5 py-3">LOAD MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aroma-tab-pane" role="tabpanel" aria-labelledby="aroma-tab" tabindex="0">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-9.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>ESSPRESSO</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="break-tab-pane" role="tabpanel" aria-labelledby="break-tab" tabindex="0">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-11.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>LATTE</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">BREAK / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="cupofcoffee-tab-pane" role="tabpanel" aria-labelledby="cupofcoffee-tab" tabindex="0">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-1.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>PERFECT CUP</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-2.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BREWED</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-3.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>COFFEE DRIPS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="filtered-tab-pane" role="tabpanel" aria-labelledby="filtered-tab" tabindex="0">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-1.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>PERFECT CUP</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-2.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>BREWED</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-3.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>COFFEE DRIPS</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Cup of Coffee / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Filtered</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="mornings-tab-pane" role="tabpanel" aria-labelledby="mornings-tab" tabindex="0">
+                    <div class="container mt-5">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="assets/img/port-1-img-10.jpg" class="img-fluid">
+                                <div class="content mt-4">
+                                    <h5>MOCHA</h5>
+                                    <a href="#" class="text-decoration-none"><span class="s1">Filtered / </span></a>
+                                    <a href="#" class="text-decoration-none"><span class="s2">Mornings</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end nav&tabs -->
+
+    <!-- start info -->
+    <section class="info">
+    <div class="detalis text-center py-5">
+      <img src="assets/img/logo-light.png" class="mb-4">
+      <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+      <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <p>nostrud exercitation ullamco laboris.”</p>
+    </div>
+
+    <div class="stores text-center pb-5">
+      <h5>STORES</h5>
+      <p><a href="#" >Dunsmuir Ave, Los Angeles, CA 90036, USA</a></p>
+      <p><a href="#">Atkins Ave, Brooklyn, NY 11208, USA</a></p>
+    </div>
+    
+    <div class="box text-white text-center pt-5">
+        <h5>NEWS AS FRESH AS OUR COFFEE</h5>
+        
+        <input type="email" placeholder="Your E-mail Address..." class="px-5 py-3">
+        <i class="fa-regular fa-envelope p-3 text-black bg-white"></i>  
+      </div>
+
+    </section>
+    <!-- end info -->
+
+    <!-- start footer -->
+    <section class="footer text-white">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-md-4 hov pt-3">
+          <p>© 2018 <a href="#">Qode Interactive</a>, All Rights Reserved</p>
+        </div>
+
+        <div class="col-md-4 d-flex gap-5 navv pt-3">
+            <a href="#" class="nav-link">HOME</a>
+            <a href="#" class="nav-link">ABOUT</a>
+            <a href="#" class="nav-link">SHOP</a>
+            <a href="#" class="nav-link">CONTACT</a>
+        </div>
+
+        <div class="col-md-4  justify-content-around d-flex pt-3">
+          <div class="icons ps-5">
+            <a href="#"><i class="fa-brands fa-instagram "></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tumblr"></i></a>
+            <a href="#"><i class="fa-brands fa-vimeo-v"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- end footer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
